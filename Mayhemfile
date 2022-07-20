@@ -2,5 +2,5 @@ project: hash-extender
 target: hash-extender
 
 cmds:
-  - cmd: ./hash_extender --file=/test --secret 6 --append append --signature 6036708eba0d11f6ef52ad44e8b74d5b --format md5
-    filepath: /test
+  - cmd: /hash_extender --file=/file --secret 6 --append append --signature 6036708eba0d11f6ef52ad44e8b74d5b --format md5
+    filepath: /file
