@@ -1,0 +1,6 @@
+project: hash-extender
+target: print-hex-fancy
+
+cmds:
+  - cmd: /fuzz_print_hex_fancy
+    libfuzzer: true
